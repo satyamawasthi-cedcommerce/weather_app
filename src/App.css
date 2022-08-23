@@ -1,38 +1,97 @@
-.App {
+#App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #272b33;
 }
+.containerDiv {
+  width: 600px;
+  padding: 2%;
+  border-radius: 15px;
 
-.App-link {
-  color: #61dafb;
+  height: 700px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#inputW {
+  padding: 2%;
+  border: none;
+  border-radius: 7px;
+  width: 60%;
+}
+.formW {
+  margin-top: 5%;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+#btn {
+  padding: 2%;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+#btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+#output {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* css for dynamic theme */
+.hot {
+  height: 700px;
+  width: 600px;
+  padding: 2%;
+  border-radius: 15px;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cool {
+  height: 700px;
+  width: 600px;
+  padding: 2%;
+  border-radius: 15px;
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.normal {
+  height: 700px;
+  width: 600px;
+  padding: 2%;
+  border-radius: 15px;
+  background: #44a08d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #093637,
+    #44a08d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #093637,
+    #44a08d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
